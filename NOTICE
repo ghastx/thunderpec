@@ -1,0 +1,28 @@
+ThunderPEC-ng
+Copyright (C) 2026 Simone Malacarne
+
+Questo progetto è rilasciato sotto licenza LGPL-3.0-only.
+Vedi il file lgpl-3.0.txt per il testo completo della licenza.
+
+---
+
+Codice originale (legacy v1.9.1)
+
+ThunderPEC-ng è una riscrittura dell'estensione ThunderPEC per Thunderbird.
+Il codice originale (branch `legacy`) è attribuito a:
+  thunderpec (pseudonimo) — thunderpec@gmail.com
+
+Il codice legacy è stato usato come riferimento per la logica di parsing PEC,
+gestione notifiche e utility. Le porzioni riutilizzate sono state riscritte
+come moduli ES e sono soggette alla stessa licenza LGPL-3.0.
+
+---
+
+Librerie di terze parti
+
+JSQR - JavaScript Quick Response Code Encoder Library v0.2
+  Copyright (C) 2011 Jens Duttke
+  Licenza: MIT o GPL-2.0 (dual license)
+  http://jsqr.de/
+  Posizione: chrome/content/extlib/jsqr-0.2-min.js
+  Nota: presente solo nel codice legacy, non usata nella versione moderna.

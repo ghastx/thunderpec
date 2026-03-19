@@ -1,5 +1,9 @@
+// SPDX-License-Identifier: LGPL-3.0-only
+// Copyright (C) 2026 Simone Malacarne
+// ThunderPEC-ng — https://github.com/nicogbr/thunderpec-ng
+
 /**
- * ThunderPEC-ng — Background Script (Event Page)
+ * Background Script (Event Page)
  *
  * Non-persistent Event Page: loaded on-demand, unloaded when idle.
  * All state must be persisted via browser.storage.local.

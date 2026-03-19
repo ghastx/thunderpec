@@ -37,4 +37,6 @@ Per visualizzare i log e gli errori dell'estensione, aprire la console degli err
 
 ## Licenza
 
-[LGPL-3.0](lgpl-3.0.txt)
+[LGPL-3.0](lgpl-3.0.txt) — Vedi [NOTICE](NOTICE) per le attribuzioni di copyright.
+
+Questo progetto è una riscrittura dell'estensione ThunderPEC originale (v1.9.1) di thunderpec (pseudonimo).
