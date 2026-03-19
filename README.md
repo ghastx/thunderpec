@@ -23,10 +23,25 @@ Riscrittura in corso da estensione legacy XUL/XPCOM a moderna MailExtension.
 
 **Requisiti:** Thunderbird 128 ESR o superiore.
 
+### Metodo 1 — Estensione temporanea (sviluppo)
+
 1. Clonare il repository o scaricare il codice sorgente
-2. Aprire Thunderbird e andare su **Strumenti → Componenti aggiuntivi e temi** (oppure digitare `about:addons` nella barra degli indirizzi)
-3. Fare clic sull'icona ingranaggio (⚙) in alto a destra e selezionare **Installa componente aggiuntivo da file...**
-4. Selezionare il file `manifest.json` nella cartella del progetto
+2. Aprire Thunderbird e digitare `about:debugging` nella barra degli indirizzi
+3. Fare clic su **Questo Thunderbird** nella barra laterale
+4. Fare clic su **Carica componente aggiuntivo temporaneo...**
+5. Selezionare il file `manifest.json` nella cartella del progetto
+
+> **Nota:** l'estensione temporanea viene rimossa al riavvio di Thunderbird.
+
+### Metodo 2 — Pacchetto .xpi (installazione permanente)
+
+1. Dalla cartella del progetto, creare il pacchetto:
+   ```bash
+   zip -r thunderpec-ng.xpi manifest.json src/ _locales/ icons/ -x ".*"
+   ```
+2. Aprire Thunderbird e andare su **Strumenti → Componenti aggiuntivi e temi**
+3. Fare clic sull'icona ingranaggio (⚙) e selezionare **Installa componente aggiuntivo da file...**
+4. Selezionare il file `thunderpec-ng.xpi` appena creato
 5. Confermare l'installazione quando richiesto
 
 Dopo l'installazione, la voce **ThunderPEC-ng** apparirà nel menu **Strumenti** di Thunderbird.
