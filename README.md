@@ -1,4 +1,4 @@
-# ThunderPEC
+# ThunderPEC-ng
 
 Estensione per Thunderbird per la gestione semplificata della Posta Elettronica Certificata (PEC).
 
@@ -13,7 +13,7 @@ Estensione per Thunderbird per la gestione semplificata della Posta Elettronica 
 ## Compatibilità
 
 - **Target:** Thunderbird 140 ESR+ (Manifest V3)
-- **Versione legacy:** Il branch [`legacy`](../../tree/legacy) contiene il codice originale v1.9.1 (Thunderbird 3.0-60.x)
+- **Versione legacy:** Il branch [`legacy`](../../tree/legacy) contiene il codice originale v1.9.1 dell'estensione originale non più sviluppata (Thunderbird 3.0-60.x)
 
 ## Stato del progetto
 
